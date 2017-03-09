@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mainpage.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard-mode-light.compiled.css">
+    <link rel="stylesheet" href="css/global-mode-light.css">
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="css/site-mode-light.css">
+    <link rel="stylesheet" href="node_modules/datatables.net-dt/css/jquery.dataTables.css">
+    
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/datatables.net/js/jquery.dataTables.js"></script>
+
+
+    <script src="systemjs.config.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/__mock__.js"></script>
+    <script src="js/dashboard.compiled.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/vendor.js"></script>
+    
+
+    
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <my-app>Loading AppComponent content here ...</my-app>
+  </body>
+</html>
