@@ -1,0 +1,3 @@
+runtime: nodejsenv: flex
+ 
+manual_scaling:    instances: 1
