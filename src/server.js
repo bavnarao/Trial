@@ -8,4 +8,5 @@ var server = app.listen(process.env.port || 8080, function () {
    console.log('Press Ctrl+C to quit.'); 
 });
 //}
+module.exports = app; 
 
